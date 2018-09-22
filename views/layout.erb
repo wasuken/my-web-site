@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title><%= @title %></title>
+	<link rel="stylesheet" href="css/layout.css">
+	<ul class="main-header">
+	  <li>
+		<a href="/">home</a>
+	  </li>
+	  <li>
+		<a href="https://mastodon.social/@wasu">mastodon</a>
+	  </li>
+	  <li>
+		<a href="https://diyopt.net/">blog</a>
+	  </li>
+	  <li>
+		<a href="https://github.com/wasuken">github</a>
+	  </li>
+	</ul>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
